@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     
-    let workDuration = 10;
-    let breakDuration = 5;
+    let workDuration = 25*60;
+    let breakDuration = 5*60;
     let mode = "work";
     let timeLeft = workDuration;
     let intervalId = null;
@@ -104,4 +104,5 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     renderTime();
+
 });
