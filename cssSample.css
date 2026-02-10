@@ -75,7 +75,7 @@ button:hover {
     left: 0;
     right: 0;
     height: 6px;
-    background: linear-gradient(to right, #81C784, #4CAF50); /* green gradient */
+    background: linear-gradient(to right, #81C784, #4CAF50);
     border-radius: 3px;
     transform: rotate(-2deg);
     z-index: 0;
@@ -114,3 +114,4 @@ button:hover {
     transform: scale(1.3);
 
 }
+
