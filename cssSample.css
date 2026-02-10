@@ -89,16 +89,16 @@ button:hover {
     transition: background-color 1s linear, transform 0.3s ease;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     z-index: 1;
-    position: relative; /* important for absolute child */
+    position: relative;
 }
 
 .tomato-doodle {
     position: absolute;
-    top: 50%;             /* center vertically on the circle */
-    left: 50%;            /* center horizontally */
-    width: auto;          /* maintain original width ratio */
-    height: 160%;         /* make it slightly taller than the circle */
-    transform: translate(-63%, -62%); /* tweak vertical centering for the stem */
+    top: 50%;             
+    left: 50%;          
+    width: auto;        
+    height: 160%;        
+    transform: translate(-63%, -62%);
     pointer-events: none;
 }
 
@@ -112,4 +112,5 @@ button:hover {
 
 .tomato.spawn {
     transform: scale(1.3);
+
 }
